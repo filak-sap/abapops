@@ -15,4 +15,7 @@ RUN curl -kL https://github.com/larshp/abapmerge/archive/master.tar.gz | tar -C 
 RUN cd /opt/abapmerge-master && npm install && npm test
 RUN ln -sf /opt/abapmerge-master/abapmerge /bin/abapmerge
 
+RUN adduser -c "SAP worker" -m -U sapper
 USER sapper
+
+WORKDIR /var/tmp
