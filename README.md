@@ -7,6 +7,12 @@ ABAP Operation Tools available as the Docker image [filaksap/abapops](https://hu
 - [abapmerge](https://github.com/larshp/abapmerge/)
 - [sapcli](https://github.com/jfilak/sapcli/)
 
+## Infrastructure
+
+- [PyRFC](http://sap.github.io/PyRFC/) 2.0.1
+- Python 3.7
+- Node.js 12.15.0
+
 ## Usage
 
 ```bash
