@@ -36,6 +36,8 @@ libraries.
 These libraries are listed in the [PyRFC installation manual](https://sap.github.io/PyRFC/install.html#linux)
 and can be found on file system of your ABAP server.
 
+The container expects the libraries at **/usr/local/sap/nwrfcsdk/lib**.
+
 Of course, it is much simpler to create your own docker image with
 the libraries bundled instead of passing them via a volume.
 
