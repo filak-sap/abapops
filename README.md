@@ -56,3 +56,6 @@ SAPCLI_ENV="-e SAP_HOST=172.17.0.2 -e SAP_SYSNR=00 -e SAP_CLIENT=001 -e SAP_SID=
 
 ${DOCKER_RUN} ${SAPCLI_ENV} filaksap/abapops sapcli startrfc STFC_CONNECTION '{"REQUTEXT":"ping"}'
 ```
+
+Find more examples how to utilize sapcli for running RFC function modules in
+[sapcli's startrfc documentation](https://github.com/jfilak/sapcli/blob/master/doc/commands/startrfc.md)
